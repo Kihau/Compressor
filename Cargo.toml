@@ -1,0 +1,19 @@
+[package]
+name = "compressor"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+# egui stuff
+eframe = " 0.22.0"
+rfd = "0.11.4"
+egui-toast = "0.8.0"
+#egui-notify = "*"
+
+# other dependencies
+reqwest = { version = "*", features = ["blocking"] }
+zip = "*"
+directories-next = "*"
+openssl = { version = "0.10", features = ["vendored"] }
